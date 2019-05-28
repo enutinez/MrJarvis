@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Mr Jarvis</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="singin"> Sing up</string>
+    <string name = "remenber">Remenber Password</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="save">Save</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="wrlogin">Please fill all fields</string>
+    <string name="wellcome">Wellcome</string>
+    <string name="success">Successful record</string>
+    <string name="registered">this email is already registered</string>
+    <string name= "failed"  >Failed record</string>
+    <string name="dialog">Registering...</string>
+    <string name="auth_success">successful authentication.</string>
+    <string name="error_auth">Authentication error</string>
+    <string name="error_login">Unregistered user</string>
+    <string name="next">Next</string>
+    <string name="perfil">Profile</string>
+    <string name="add_offer">Add Offer</string>
+    <string name="my_offers">My Offers</string>
+    <string name="home">Home</string>
+    <string name="offers_tittle">Offer\'s tittle</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="no_records_found">No records found</string>
+    <string name="offer_detail">Offer detail</string>
+    <string name="tittle">Tittle</string>
+    <string name="contac">Contac cellphone</string>
+
+
+    <string-array name="gender">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name= "loginlist">
+        <item>@string/remenber</item>
+        <item>@string/singin</item>
+    </string-array>
+</resources>

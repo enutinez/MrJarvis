@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    tools:context=".Home"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/TxtHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/no_records_found"
+                        android:textAppearance="@style/TextAppearance.Compat.Notification.Title" />
+
+                    <ListView
+                        android:id="@+id/LVOffer"
+                        android:layout_width="match_parent"
+                        android:layout_height="639dp" />
+                </LinearLayout>
+            </ScrollView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/MenuH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:fab_addButtonColorNormal="@color/colorPrimary"
+        app:fab_addButtonColorPressed="@color/colorPrimaryDark"
+        app:fab_addButtonPlusIconColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_margin="20dp"
+        app:fab_labelStyle="@style/customFab"
+
+        >
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/ic_perm_identity_black_24dp"
+            app:fab_size="normal"
+            app:fab_title="@string/perfil"
+            android:onClick="Profile"
+
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/ic_control_point_black_24dp"
+            app:fab_size="normal"
+            app:fab_title="@string/add_offer"
+            android:onClick="AddOffer"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/ic_folder_open_black_24dp"
+            app:fab_size="normal"
+            app:fab_title="@string/my_offers"
+            android:onClick="MyOffers"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_colorNormal="@color/design_default_color_primary"
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/ic_home_black_24dp"
+            app:fab_size="normal"
+            android:onClick="Home"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
