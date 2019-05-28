@@ -2,8 +2,8 @@
     <string name="app_name">Mr Jarvis</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">Login</string>
-    <string name="singin"> Sing up</string>
+    <string name="login">Log in</string>
+    <string name="singin">" Sign up"</string>
     <string name = "remenber">Remenber Password</string>
     <string name="name">Name</string>
     <string name="lastname">Lastname</string>

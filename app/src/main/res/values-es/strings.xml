@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mr Jarvis</string>
+    <string name="email">Correo</string>
+    <string name="password">Clave</string>
+    <string name="login">Ingresar</string>
+    <string name="singin">Registrar</string>
+    <string name="remenber">Recordar clave</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="gender">Genero</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="age">Edad</string>
+    <string name="save">Guardar</string>
+    <string name="cellphone">Celular</string>
+    <string name="wrlogin">Por favor llenar todos los campos</string>
+    <string name="wellcome">Bienvenido</string>
+    <string name="success">Registro exitoso</string>
+    <string name="registered">Este correo ya esta registrado</string>
+    <string name="failed">Registro fallido</string>
+    <string name="dialog">Registrando</string>
+    <string name="auth_success">Autenticacion exitosa</string>
+    <string name="error_auth">Autenticacion erronea</string>
+    <string name="error_login">Usuario no registrado</string>
+    <string name="next">Siguiente</string>
+    <string name="perfil">Perfil</string>
+    <string name="add_offer">Agregar oferta</string>
+    <string name="my_offers">Mis ofertas</string>
+    <string name="home">Inicio</string>
+    <string name="offers_tittle">Titulo de la oferta</string>
+    <string name="price">Precio</string>
+    <string name="description">Descripcion</string>
+    <string name="no_records_found">No hay registros encontrados</string>
+    <string name="offer_detail">Detalle de la oferta</string>
+    <string name="tittle">Titulo</string>
+    <string name="contac">Contacto</string>
+</resources>
